@@ -306,7 +306,7 @@ uint16 servoGetTargetHighRes(uint8 servoNum);
  * The units of the returned position are 24ths of a microsecond, so a value of
  * 24000 corresponds to 1000 microseconds. */
 uint16 servoGetPositionHighRes(uint8 servoNum);
-#define VERZE 1
+#define VERZE 5
 /*! Timer 1 interrupt. */
 ISR(T1, 0);
 
